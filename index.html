@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- music icon google font -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+    <!-- css stylesheets -->
+    <link rel="stylesheet" href="stylesheets.css" type="text/css">
+    <!-- logo icon image -->
+    <link rel="icon" type="image/x-icon" href="unnamed (3).ico">
+
+    <title>Music App</title>
+</head>
+  <body>
+  <header>
+        <div class="menu_side">
+            <h1>Playlist</h1>
+            <div class="playlist">
+                <h4 class="active"><span></span><i class="bi bi-music-note-beamed"></i>Playlist</h4>
+                <h4><span></span><i class="bi bi-music-note-beamed"></i>Last Listening</h4>
+                <h4><span></span><i class="bi bi-music-note-beamed"></i>Recommended</h4>
+            </div>
+             <div class="menu_song">
+                 <li class="songItem">
+                    <span>01</span>
+                    <img src="leftSide_image/1.jpg" alt="Alan">
+                    <h5>
+                        Hangover teri yaadon ka
+                        <div class="subtitle">VivekRatan_Shakya</div>
+                        <i class="bi playListplay bi-play-circle-fill" id="1"></i>
+                    </h5>
+                    <i class="bi playListplay bi-play-circle-fill" id="6"></i>
+                 </li>
+                 <li class="songItem">
+                    <span>02</span>
+                    <img src="leftSide_image/2.jpg" alt="Alan">
+                    <h5>
+                        Tera suroor jab se
+                        <div class="subtitle">VivekRatan_Shakya</div>
+                        <i class="bi playListplay bi-play-circle-fill" id="2"></i>
+                    </h5>
+                    <i class="bi playListplay bi-play-circle-fill" id="6"></i>
+                 </li>
+                 <li class="songItem">
+                    <span>03</span>
+                    <img src="leftSide_image/3.jpg" alt="Alan">
+                    <h5>
+                        Kahin aisa na ho jaye
+                        <div class="subtitle">VivekRatan_Shakya</div>
+                        <i class="bi playListplay bi-play-circle-fill" id="3"></i>
+                    </h5>
+                    <i class="bi playListplay bi-play-circle-fill" id="6"></i>
+                 </li>
+                 <li class="songItem">
+                    <span>04</span>
+                    <img src="leftSide_image/4.jpg" alt="Alan">
+                    <h5>
+                        Badalo ki tarah tum pe 
+                        <div class="subtitle">VivekRatan_Shakya</div>
+                        <i class="bi playListplay bi-play-circle-fill" id="4"></i>
+                    </h5>
+                    <i class="bi playListplay bi-play-circle-fill" id="6"></i>
+                 </li>
+                 <li class="songItem">
+                    <span>05</span>
+                    <img src="leftSide_image/5.jpg" alt="Alan">
+                    <h5>
+                        Rata lambiya lambiya re
+                        <div class="subtitle">VivekRatan_Shakya</div>
+                        <i class="bi playListplay bi-play-circle-fill" id="5"></i>
+                    </h5>
+                    <i class="bi playListplay bi-play-circle-fill" id="6"></i>
+                 </li>
+                 <li class="songItem">
+                    <span>06</span>
+                    <img src="leftSide_image/6.jpg" alt="Alan">
+                    <h5>
+                        Gal ban jana tu
+                        <div class="subtitle">VivekRatan_Shakya</div>
+                     </h5>
+                        <i class="bi playListplay bi-play-circle-fill" id="6"></i>
+                 </li>
+
+
+             </div>   
+        </div>
+
+        <!-- top bar navigation -->
+        <div class="song_side">
+           <nav>
+              <ul>
+                  <li>Discover<span></span></li>
+                  <li>My Library</li>
+                  <li>Radio</li>
+            </ul>
+             <div class="search">
+                <i class="bi bi-search"></i>
+                <input type="text" placeholder="Search Music......">
+             </div>
+             <div class="user">
+                <img src="IMG_20220927_163052_298.jpg" alt="User" title="VivekRatan_Shakya">
+                </div>
+           </nav>
+
+           <div class="content">
+               <h1>VivekRatan_Shakya</h1> 
+                <p>
+                    A song is a musical composition intended to be performed by the human voice.<br> 
+                    This is often done at distinct and fixed pitches (melodies) using patterns of sound and silence.
+                    
+                </p>
+                <div class="buttons">
+                    <button>PLAY</button>
+                    <button>FOLLOW</button>
+
+                </div>
+         </div>
+         <!-- center point popular song -->
+         <div class="popular_song">
+            <div class="h4">
+                 <h4>Popular Song</h4>
+                 <div class="btn_s">
+                    <i id="left_scroll" class="bi bi-arrow-left-short"></i>
+                    <i id="right-scroll" class="bi bi-arrow-right-short"></i>
+                 </div>
+            </div>
+
+            <div class="pop_song">
+                <li class="songItem">
+                    <div class="img_play">
+                        <img src="Center Image/1.jpg" alt="VivekRatan_Shakya">
+                        <i class="bi playListplay bi-play-circle-fill" id="7"></i>
+                    </div>
+                     <h5> Lateste Song
+                        <br>
+                        <div class="subtitle">VivekRatan_Shakya</div>
+                     </h5>
+                </li>
+
+                <li class="songItem">
+                    <div class="img_play">
+                        <img src="Center Image/2.jpg" alt="VivekRatan_Shakya">
+                        <i class="bi playListplay bi-play-circle-fill" id="8"></i>
+                        <!-- Change all id -->
+                    </div>
+                     <h5> Lateste Song
+                        <br>
+                        <div class="subtitle">VivekRatan_Shakya</div>
+                     </h5>
+                </li>
+
+                <li class="songItem">
+                    <div class="img_play">
+                        <img src="Center Image/3.jpg" alt="VivekRatan_Shakya">
+                        <i class="bi playListplay bi-play-circle-fill" id="9"></i>
+                    </div>
+                     <h5> Lateste Song
+                        <br>
+                        <div class="subtitle">VivekRatan_Shakya</div>
+                     </h5>
+                </li>
+
+                <li class="songItem">
+                    <div class="img_play">
+                        <img src="Center Image/4.jpg" alt="VivekRatan_Shakya">
+                        <i class="bi playListplay bi-play-circle-fill" id="10"></i>
+                    </div>
+                     <h5> Lateste Song
+                        <br>
+                        <div class="subtitle">VivekRatan_Shakya</div>
+                     </h5>
+                </li>
+
+                <li class="songItem">
+                    <div class="img_play">
+                        <img src="Center Image/5.jpg" alt="VivekRatan_Shakya">
+                        <i class="bi playListplay bi-play-circle-fill" id="11"></i>
+                    </div>
+                     <h5> Lateste Song
+                        <br>
+                        <div class="subtitle">VivekRatan_Shakya</div>
+                     </h5>
+                </li>
+                <li class="songItem">
+                    <div class="img_play">
+                        <img src="Center Image/6.jpg" alt="VivekRatan_Shakya">
+                        <i class="bi playListplay bi-play-circle-fill" id="12"></i>
+                    </div>
+                     <h5> Lateste Song
+                        <br>
+                        <div class="subtitle">VivekRatan_Shakya</div>
+                     </h5>
+                </li>
+                <li class="songItem">
+                    <div class="img_play">
+                        <img src="Center Image/7.jpg" alt="VivekRatan_Shakya">
+                        <i class="bi playListplay bi-play-circle-fill" id="13"></i>
+                    </div>
+                     <h5> Lateste Song
+                        <br>
+                        <div class="subtitle">VivekRatan_Shakya</div>
+                     </h5>
+                </li>
+                <li class="songItem">
+                    <div class="img_play">
+                        <img src="Center Image/8.jpg" alt="VivekRatan_Shakya">
+                        <i class="bi playListplay bi-play-circle-fill" id="14"></i>
+                    </div>
+                     <h5> Lateste Song
+                        <br>
+                        <div class="subtitle">VivekRatan_Shakya</div>
+                     </h5>
+                </li>
+                <li class="songItem">
+                    <div class="img_play">
+                        <img src="Center Image/9.jpg" alt="VivekRatan_Shakya">
+                        <i class="bi playListplay bi-play-circle-fill" id="15"></i>
+                    </div>
+                       <h5> Lateste Song
+                         <br>
+                        <div class="subtitle">VivekRatan_Shakya</div>
+                     </h5>
+                </li>
+                <li class="songItem">
+                    <div class="img_play">
+                        <img src="Center Image/10.jpg" alt="VivekRatan_Shakya">
+                        <i class="bi playListplay bi-play-circle-fill" id="16"></i>
+                    </div>
+                     <h5> Lateste Song
+                        <br>
+                        <div class="subtitle">VivekRatan_Shakya</div>
+                     </h5>
+                </li>
+                <li class="songItem">
+                    <div class="img_play">
+                        <img src="Center Image/11.jpg" alt="VivekRatan_Shakya">
+                        <i class="bi playListplay bi-play-circle-fill" id="17"></i>
+                    </div>
+                     <h5> Lateste Song
+                        <br>
+                        <div class="subtitle">VivekRatan_Shakya</div>
+                     </h5>
+                </li>
+                <li class="songItem">
+                    <div class="img_play">
+                        <img src="Center Image/12.jpg" alt="VivekRatan_Shakya">
+                        <i class="bi playListplay bi-play-circle-fill" id="18"></i>
+                    </div>
+                     <h5> Lateste Song
+                        <br>
+                        <div class="subtitle">VivekRatan_Shakya</div>
+                     </h5>
+                </li>
+                <li class="songItem">
+                    <div class="img_play">
+                        <img src="Center Image/13.jpg" alt="VivekRatan_Shakya">
+                        <i class="bi playListplay bi-play-circle-fill" id="19"></i>
+                    </div>
+                     <h5> Lateste Song
+                        <br>
+                        <div class="subtitle">VivekRatan_Shakya</div>
+                     </h5>
+                </li>
+                <li class="songItem">
+                    <div class="img_play">
+                        <img src="Center Image/14.jpg" alt="VivekRatan_Shakya">
+                        <i class="bi playListplay bi-play-circle-fill" id="20"></i>
+                    </div>
+                     <h5> Lateste Song
+                        <br>
+                        <div class="subtitle">VivekRatan_Shakya</div>
+                     </h5>
+                </li>
+            </div>  
+      </div>
+
+      <div class="popular_artists">
+        <div class="h4">
+             <h4>Popular Artists</h4>
+             <div class="btn_s">
+                <i id="left_scrolls" class="bi bi-arrow-left-short"></i>
+                <i id="right-scrolls" class="bi bi-arrow-right-short"></i>
+             </div>
+        </div>
+        <div class="item">
+            <li>
+                 <img src="artist image/arjit.jpg" alt="Arjit Singh" title="Arjit Singh">
+            </li>
+
+            <li>
+                <img src="artist image/2.jpg" alt="Arjit Singh" title="Sad Song">
+           </li>
+
+           <li>
+                 <img src="artist image/3.jpg" alt="Arjit Singh" title="LoveStroy Song">
+            </li>
+
+            <li>
+                 <img src="artist image/4.jpg" alt="Arjit Singh" title="Kumar Sanu Song">
+           </li>
+
+           <li>
+                 <img src="artist image/5.jpg" alt="Arjit Singh" title="Lata Mangeswar Song">
+          </li>
+
+       <li>
+            <img src="artist image/6.jpg" alt="Arjit Singh" title="Stebin Song">
+        </li>
+
+        <li>
+            <img src="artist image/7.jpg" alt="Arjit Singh" title="jubin Nautiya Song">
+       </li>
+
+         <li>
+               <img src="artist image/8.jpg" alt="Arjit Singh" title="New Song">
+        </li>
+
+        <li>
+             <img src="artist image/9.jpg" alt="Arjit Singh" title="Lateste Song">
+        </li>
+
+         <li>
+               <img src="artist image/10.jpg" alt="Arjit Singh" title="Super Song">
+         </li>
+
+          
+         <li>
+             <img src="artist image/11.jpg" alt="Arjit Singh" title="Baaris banjana Song">
+        </li>         
+          
+        <li>
+             <img src="artist image/12.jpg" alt="Arjit Singh" title="Funny Song">
+       </li>         
+         
+       <li>
+             <img src="artist image/13.jpg" alt="Arjit Singh" title="Masti Song">
+       </li>         
+     
+           <li>
+              <img src="artist image/14.jpg" alt="Arjit Singh" title="Love Song">
+         </li>         
+  
+            <li>
+               <img src="artist image/15.jpg" alt="Arjit Singh" title="Hot Song">
+           </li>         
+
+
+
+        </div>
+      </div>
+
+    </div>
+
+
+   <!-- main div of master player -->
+        <div class="master_play">
+        <div class="wave">
+            <div class="wave1"></div>
+            <div class="wave1"></div>
+            <div class="wave1"></div>
+        </div>
+        <!-- master player of undert  image set -->
+        <!-- currently run music under bar -->
+        <img src="InShot_20221109_223851393.jpg" alt="Alan">
+        <h5>On my Way <br>
+            <div class="subtitle">VivekRatan_Shakya</div>
+        </h5>
+
+        <!-- play button icon and link -->
+        <div class="icon">
+            <i class="bi bi-skip-start-fill"></i> 
+            <i class="bi bi-play-fill"></i> 
+            <i class="bi bi-skip-end-fill"></i>
+        </div>
+
+        <!-- music runing bar & time show -->
+        <span id="currentStart">0:00</span>
+        <div class="bar">
+           <input type="range" id="seek" min="0" value="0" max="100">
+           <div class="bar2" id="bar2"></div>
+           <div class="dot"></div>  
+        </div>
+
+
+        <span id="currentEnd">0:00</span>
+        <div class="vol">
+            <i class="bi bi-volume-down-fill"></i>
+            <input type="range" id="vol" min="0" value="50" max="100">
+            <div class="vol_bar"></div>
+           <div class="dot" id="vol_dot"></div>  
+        </div>
+     </div>
+        
+      
+    </header>
+    <script src="musicapp.js"></script>
+
+
+
+
+</body>
+</html>
+
+
+
